@@ -97,3 +97,17 @@ h3:not(:nth-of-type(1)) {
 .year {
   margin-bottom: 5px;
 }
+
+.work p {
+  position: relative;
+}
+
+.work p::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #000;
+  position: absolute;
+  top: 7px;
+  border-radius: 50%;
+}
