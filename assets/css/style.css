@@ -142,3 +142,15 @@ h3:not(:nth-of-type(1)) {
 .education1 {
   margin-bottom: 20px;
 }
+
+ul li a,
+.skills-list li {
+  font-size: 13px;
+}
+
+.links-list,
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
