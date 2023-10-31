@@ -154,3 +154,7 @@ ul li a,
   flex-direction: column;
   gap: 5px;
 }
+
+.links-list li a {
+  color: #696969;
+}
