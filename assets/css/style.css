@@ -158,3 +158,29 @@ ul li a,
 .links-list li a {
   color: #696969;
 }
+
+/*media query starts*/
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+}
+
+/*media query for 995px starts here*/
+@media only screen and (max-width: 995px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/*media query for 995px starts here*/
+@media only screen and (max-width: 995px) {
+  main .wrapper {
+    flex-direction: column;
+  }
+
+  .left-card {
+    padding: 25px 30px;
+  }
+}
