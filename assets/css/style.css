@@ -11,10 +11,6 @@ li {
   list-style: none;
 }
 
-body {
-  background-color: #dddddd;
-}
-
 p {
   color: #696969;
   font-size: 13px;
@@ -28,6 +24,7 @@ p {
   margin: 40px auto;
   border-radius: 15px;
   padding: 40px;
+  border: 2px solid;
 }
 
 h1 {
