@@ -184,4 +184,13 @@ ul li a,
     padding: 25px 30px;
     border: none;
   }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .email-card {
+    margin-top: 35px;
+  }
 }
