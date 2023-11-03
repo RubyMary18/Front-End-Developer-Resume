@@ -159,6 +159,10 @@ ul li a,
   color: #696969;
 }
 
+.info {
+  margin-bottom: 12px;
+}
+
 /*media query starts*/
 /*media query for 1024px starts here*/
 @media only screen and (max-width: 1024px) {
@@ -183,14 +187,95 @@ ul li a,
   .left-card {
     padding: 25px 30px;
     border: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px;
   }
 
   .details {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+    flex-grow: 1;
   }
 
   .email-card {
-    margin-top: 35px;
+    margin-top: 40px;
+  }
+
+  .details-card,
+  .email-card,
+  .links,
+  .skills {
+    flex-basis: 50%;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  header .wrapper {
+    padding: 0 25px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .right-card {
+    padding: 25px 30px 0 30px;
+  }
+
+  .details-card {
+    padding-right: 20px;
+  }
+}
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+  .left-card,
+  .details {
+    flex-direction: column;
+  }
+
+  .email-card {
+    margin-top: 0px;
+  }
+
+  .details {
+    margin-bottom: 0px;
+  }
+
+  .links {
+    margin-bottom: 20px;
+  }
+
+  .left-card {
+    margin: 25px 30px;
+    padding: 0 0 25px 0;
+    border-bottom: 2px solid #efefef;
+  }
+
+  .right-card {
+    padding: 0px 30px 0 30px;
+  }
+}
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+  .left-card {
+    margin: 25px 20px;
+  }
+
+  .right-card {
+    padding: 0px 20px 0 20px;
+  }
+
+  p {
+    line-height: 23px;
+  }
+
+  .container {
+    width: 80%;
   }
 }
